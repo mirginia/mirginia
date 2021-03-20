@@ -109,6 +109,13 @@ const changeimg12=()=>{
 	changeimg(flowers,gift12);
 }
 
+const changeimg13=()=>{
+	const flowers=document.getElementsByClassName("flowersgrid13")[0];
+	const gift13 = document.getElementById("gift13");
+
+	changeimg(flowers,gift13);
+}
+
 
 
 const changeimg=(flowers,gift)=>{
@@ -144,3 +151,4 @@ m9.addEventListener("click",changeimg9);
 m10.addEventListener("click",changeimg10);
 m11.addEventListener("click",changeimg11);
 m12.addEventListener("click",changeimg12);
+m13.addEventListener("click",changeimg13);
